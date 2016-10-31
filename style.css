@@ -1,0 +1,89 @@
+body {
+	text-align:center;
+}
+a {
+	text-decoration:none;
+}
+a:hover {text-decoration:underline }
+#wrap {
+	position:relative;
+	width:800px;
+	text-align:left;
+	background:url(images/bg.jpg) no-repeat;
+	height:1000px;
+	margin:0 auto;
+}
+#logo {
+	position:absolute;
+	top:10px;
+	font-size:24px;
+	margin-left:140px;
+	padding-left:30px;
+	margin-top:10px;
+	background:url(images/logo.gif) no-repeat;
+}
+#logo span {
+	font-size:14px;
+	color:red;
+}
+#header {
+	height:200px;
+}
+ul#nav {
+	position:absolute;
+	top:130px;
+	right:165px;
+	font-size:14px;
+}
+ul#nav li {
+	display:inline;
+	padding:0 40px;
+}
+ul#nav a {
+	color:red;
+}
+#content {
+	width:410px;
+	position:absolute;
+	left:140px;
+	padding:0 40px;
+}
+#content h2 {
+	font-size:30px;
+	padding-bottom:20px;
+	color:#400d09;
+}
+#content img {
+	float:left;
+}
+#content p {
+	float:right;
+	width:200px;
+}
+#blog {
+	position:absolute;
+	top:380px;
+	width:200px;
+	padding-left:110px;
+}
+#blog img {
+	padding-left:50px;
+}
+#footer {
+	position:relative;
+	margin-top:-100px;
+	color:red;
+}
+#ftlink a {
+	color:red;
+	padding:0 15px;
+}
+#copyright, #copyright a{
+	color:#afafaf;
+}
+#copyright a:hover{
+	color:#000;
+}
+#ftlink, #copyright {
+	padding-bottom:8px;
+}
